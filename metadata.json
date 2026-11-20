@@ -1,0 +1,8 @@
+{
+  "name": "VocabCheck",
+  "description": "English Vocabulary in Use (Pre-intermediate & Intermediate, 4-nashr) kitobi asosida 100 ta unit bo‘yicha test, tahlil va o‘qituvchi boshqaruv platformasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

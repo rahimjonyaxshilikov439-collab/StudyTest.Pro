@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VocabCheck — English Vocabulary in Use Test Platformasi</title>
+    <meta
+      name="description"
+      content="English Vocabulary in Use (Pre-intermediate & Intermediate, 4-nashr) kitobi asosida 100 ta unit bo‘yicha test, tahlil va o‘qituvchi boshqaruv platformasi."
+    />
+    <meta property="og:title" content="VocabCheck — English Vocabulary in Use Test Platformasi" />
+    <meta
+      property="og:description"
+      content="English Vocabulary in Use (Pre-intermediate & Intermediate, 4-nashr) kitobi asosida 100 ta unit bo‘yicha test, tahlil va o‘qituvchi boshqaruv platformasi."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400..700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('vocabcheck_theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F8FAFC] text-[#0F172A] dark:bg-[#0B1120] dark:text-[#F1F5F9] antialiased selection:bg-sky-500/20 selection:text-sky-700 dark:selection:text-sky-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
